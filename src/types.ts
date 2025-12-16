@@ -3,6 +3,7 @@ export interface Question {
   ticketNumber: number;
   question: string;
   answer: string;
+  distractors?: string[];
 }
 
 export interface QuizState {

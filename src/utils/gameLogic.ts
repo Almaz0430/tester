@@ -14,14 +14,24 @@ export function shuffle<T>(array: T[]): T[] {
 
 /**
  * Generates distractors for a multiple choice question.
- * Returns an array of 4 answers (1 correct, 3 wrong).
+ * Returns all available answers (1 correct + all distractors).
+ * Uses custom distractors if available, otherwise picks 3 random from other questions.
  */
 export function generateQuizOptions(current: Question, allQuestions: Question[]) {
-  const otherAnswers = allQuestions
-    .filter(q => q.id !== current.id)
-    .map(q => q.answer);
+  let distractors: string[];
 
-  const distractors = shuffle(otherAnswers).slice(0, 3);
+  if (current.distractors && current.distractors.length > 0) {
+    // Use ALL custom distractors
+    distractors = current.distractors;
+  } else {
+    // Fallback: use 3 answers from other questions
+    const otherAnswers = allQuestions
+      .filter(q => q.id !== current.id)
+      .map(q => q.answer);
+
+    distractors = shuffle(otherAnswers).slice(0, 3);
+  }
+
   return shuffle([current.answer, ...distractors]);
 }
 
