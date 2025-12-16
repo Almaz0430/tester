@@ -5,16 +5,21 @@ import { generateQuizOptions, shuffle } from './utils/gameLogic';
 import './App.css';
 
 function App() {
-  const [mode, setMode] = useState<'MENU' | GameMode>('MENU');
+  const [mode, setMode] = useState<'MENU' | 'RESULTS' | GameMode>('MENU');
   const [currentQIndex, setCurrentQIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
   const [feedback, setFeedback] = useState<'CORRECT' | 'WRONG' | null>(null);
 
-  // Load and shuffle questions once
+  // Generate new set of 25 random questions each time mode changes to QUIZ
   const questions: Question[] = useMemo(() => {
-    return shuffle(questionsData as Question[]);
-  }, []);
+    if (mode === 'QUIZ') {
+      const allQuestions = [...questionsData] as Question[];
+      const shuffled = shuffle(allQuestions);
+      return shuffled.slice(0, 25);
+    }
+    return [];
+  }, [mode]);
 
   const currentQ = questions[currentQIndex];
 
@@ -40,32 +45,48 @@ function App() {
     if (currentQIndex < questions.length - 1) {
       setCurrentQIndex(currentQIndex + 1);
     } else {
-      setMode('MENU'); // or Game Over screen
-      alert(`Game Over! Score: ${score}`);
-      setCurrentQIndex(0);
-      setScore(0);
+      setMode('RESULTS');
     }
+  };
+
+  const restartQuiz = () => {
+    setCurrentQIndex(0);
+    setScore(0);
+    setShowResult(false);
+    setFeedback(null);
+    setMode('MENU');
   };
 
   if (mode === 'MENU') {
     return (
       <div className="container menu-screen">
-        <h1>🎓 Exam Prep</h1>
-        <p className="subtitle">Master your questions with active recall.</p>
+        <button className="start-btn" onClick={() => setMode('QUIZ')}>
+          Начать тест
+        </button>
+      </div>
+    );
+  }
 
-        <div className="mode-grid">
-          <button className="mode-card" onClick={() => setMode('QUIZ')}>
-            <span className="icon">❓</span>
-            <h3>Quiz Mode</h3>
-            <p>Select the correct definition among similarity distractors.</p>
-          </button>
+  if (mode === 'RESULTS') {
+    const percentage = (score / questions.length) * 100;
+    const isPassed = percentage >= 60;
 
-          {/* Fill Blank Coming Soon */}
-          <button className="mode-card disabled" disabled>
-            <span className="icon">✍️</span>
-            <h3>Fill Blanks</h3>
-            <p>Coming soon...</p>
-          </button>
+    return (
+      <div className="container results-screen">
+        <div className="results-card">
+          <h1>{isPassed ? '🎉' : '😔'}</h1>
+          <div className="result-message">
+            {isPassed ? 'Че дохуя умный?' : 'Поздравляю ты тупой'}
+          </div>
+          <div className="score-display">
+            <div className="score-big">{score} / {questions.length}</div>
+            <div className="score-percentage">{percentage.toFixed(0)}%</div>
+          </div>
+          <div className="results-actions">
+            <button className="next-btn" onClick={restartQuiz}>
+              Вернуться в меню
+            </button>
+          </div>
         </div>
       </div>
     );
@@ -81,7 +102,6 @@ function App() {
 
       <main>
         <div className="question-card">
-          <div className="ticket-badge">Билет №{currentQ.ticketNumber}</div>
           <h2>{currentQ.question}</h2>
         </div>
 
