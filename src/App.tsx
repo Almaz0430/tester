@@ -76,7 +76,7 @@ function App() {
         <div className="results-card">
           <h1>{isPassed ? '🎉' : '😔'}</h1>
           <div className="result-message">
-            {isPassed ? 'Че дохуя умный?' : 'Поздравляю ты тупой'}
+            {isPassed ? 'Да' : 'Нет'}
           </div>
           <div className="score-display">
             <div className="score-big">{score} / {questions.length}</div>
