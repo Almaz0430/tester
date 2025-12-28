@@ -1,1049 +1,1169 @@
-<question> Что делает функция c() в R?
-<variant> Создаёт вектор из переданных элементов.
-<variant> Выполняет сортировку по возрастанию
-<variant> Удаляет объект из памяти
-<variant> Загружает пакет
-<variant> Строит график
-
-<question> Какой оператор присваивания является стандартным в R?
-<variant> <- .
-<variant> <=
-<variant> :=
-<variant> <<
-<variant> ==
-
-<question> Как вызвать документацию по функции mean()?
-<variant> ?mean .
-<variant> info(mean)
-<variant> helpme(mean)
-<variant> doc(mean)
-<variant> description(mean)
-
-<question> Какая функция показывает структуру объекта?
-<variant> str().
-<variant> core()
-<variant> typeview()
-<variant> object()
-<variant> detail()
-
-<question> Что возвращает length(x)?
-<variant> Количество элементов объекта.
-<variant> Максимальное значение вектора
-<variant> Сумму всех элементов
-<variant> Количество столбцов таблицы
-<variant> Тип данных объекта
-
-<question> Как создать последовательность от 1 до 100?
-<variant> 1:100 .
-<variant> seq100()
-<variant> int(1,100)
-<variant> range(1,100)
-<variant> newseq(1,100)
-
-<question> Какая функция удаляет объект?
-<variant> rm().
-<variant> del()
-<variant> removeObj()
-<variant> drop()
-<variant> erase()
-
-<question> Как получить первые строки таблицы df?
-<variant> head(df).
-<variant> start(df)
-<variant> firstrows(df)
-<variant> preview(df)
-<variant> readhead(df)
-
-<question> Как обратиться к столбцу age в df?
-<variant> df$age.
-<variant> df.age
-<variant> df(age)
-<variant> df::age
-<variant> df->age
-
-<question> Как обозначается пропущенное значение в R?
-<variant> NA.
-<variant> MISS
-<variant> VOID
-<variant> NULL
-<variant> GAP
-
-<question> Какая функция объединяет строки?
-<variant> rbind().
-<variant> joinRows()
-<variant> addRows()
-<variant> mergeRows()
-<variant> row()
-
-<question> Что делает seq(1,10,2)?
-<variant> Создаёт последовательность 1,3,5,7,9.
-<variant> Создаёт только чётные числа
-<variant> Дублирует числа от 1 до 10
-<variant> Создаёт логический вектор
-<variant> Создаёт матрицу
-
-<question> Какая функция возвращает уникальные значения вектора?
-<variant> unique().
-<variant> only()
-<variant> newvalues()
-<variant> splituniq()
-<variant> filteruniq()
-
-<question> Как создать фактор?
-<variant> factor().
-<variant> asType()
-<variant> makeGroup()
-<variant> classify()
-<variant> unify()
-
-<question> Какая функция задаёт рабочую директорию?
-<variant> setwd().
-<variant> wdset()
-<variant> changedir()
-<variant> workdir()
-<variant> setpath()
-
-<question> Чем загружается CSV-файл?
-<variant> read.csv().
-<variant> csv.load()
-<variant> importCsv()
-<variant> load.table()
-<variant> openCsv()
-
-<question> Как сохранить таблицу в CSV?
-<variant> write.csv().
-<variant> save.csv()
-<variant> export()
-<variant> output.csv()
-<variant> writetable()
-
-<question> Что делает функция sum()?
-<variant> Складывает все элементы.
-<variant> Делает фактор
-<variant> Создаёт график
-<variant> Строит таблицу
-<variant> Загружает библиотеку
-
-<question> Что делает mean()?
-<variant> Вычисляет среднее значение.
-<variant> Ищет медиану
-<variant> Ищет минимум
-<variant> Ищет максимум
-<variant> Выполняет фильтрацию
-
-<question> Как вычислить медиану?
-<variant> median().
-<variant> middle()
-<variant> halfvalue()
-<variant> center()
-<variant> med()
-
-<question> Какая функция показывает краткую статистику?
-<variant> summary().
-<variant> analyze()
-<variant> describe()
-<variant> stat()
-<variant> quick()
-
-<question> Как проверить, является ли объект числовым?
-<variant> is.numeric().
-<variant> is.number()
-<variant> numericType()
-<variant> checkNum()
-<variant> isvalue()
-
-<question> Что делает оператор ":"?
-<variant> Создаёт последовательность чисел с шагом 1.
-<variant> Присваивает значение
-<variant> Очищает переменную
-<variant> Делит элементы
-<variant> Формирует список
-
-<question> Как создать список?
-<variant> list().
-<variant> makeList()
-<variant> newList()
-<variant> lst()
-<variant> alist()
-
-<question> Какая функция создаёт матрицу?
-<variant> matrix().
-<variant> createMatrix()
-<variant> newtable()
-<variant> mat()
-<variant> asMatrix()
-
-<question> Как объединить два вектора по столбцам?
-<variant> cbind().
-<variant> vmerge()
-<variant> colbind()
-<variant> joincols()
-<variant> combinecols()
-
-<question> Как получить количество строк в таблице df?
-<variant> nrow(df).
-<variant> rowcount(df)
-<variant> rows(df)
-<variant> countrow(df)
-<variant> lines(df)
-
-<question> Как получить количество столбцов?
-<variant> ncol(df).
-<variant> colcount(df)
-<variant> columns(df)
-<variant> countcol(df)
-<variant> vars(df)
-
-<question> Какая функция применяет функцию к строкам/столбцам?
-<variant> apply().
-<variant> execute()
-<variant> runOn()
-<variant> map()
-<variant> do()
-
-<question> Что делает order(x)?
-<variant> Возвращает индексы сортировки.
-<variant> Возвращает отсортированные значения
-<variant> Удаляет NA
-<variant> Меняет тип данных
-<variant> Создаёт таблицу соответствий
-
-<question> Как посчитать дисперсию?
-<variant> var().
-<variant> dispersion()
-<variant> varianceCalc()
-<variant> dcalc()
-<variant> spread()
-
-<question> Какая функция даёт стандартное отклонение?
-<variant> sd().
-<variant> stdev()
-<variant> stand()
-<variant> sdev()
-<variant> deviation()
-
-<question> Как вывести 10 последних строк?
-<variant> tail(df,10).
-<variant> last(df,10)
-<variant> below(df,10)
-<variant> end(df,10)
-<variant> final(df,10)
-
-<question> Что делает table()?
-<variant> Создаёт частотную таблицу.
-<variant> Строит график
-<variant> Записывает файл
-<variant> Вычисляет сумму
-<variant> Модифицирует тип данных
-
-<question> Какая функция создаёт повторяющуюся последовательность?
-<variant> rep().
-<variant> repeatv()
-<variant> clone()
-<variant> redouble()
-<variant> multi()
-
-<question> Как проверить, есть ли NA?
-<variant> is.na().
-<variant> check.na()
-<variant> isnullVal()
-<variant> missing()
-<variant> gap()
-
-<question> Чем заменить NA средним?
-<variant> x[is.na(x)] <- mean(x,na.rm=TRUE).
-<variant> x <- replace(x,mean(x))
-<variant> fill(x)
-<variant> gapfill(x)
-<variant> x <- mid(x)
-
-<question> Как объединить строки двух таблиц?
-<variant> rbind(df1,df2).
-<variant> unionRows(df1,df2)
-<variant> extend(df1,df2)
-<variant> appendrows()
-<variant> mix()
-
-<question> Как прочитать .txt файл?
-<variant> read.table().
-<variant> readtext()
-<variant> opentxt()
-<variant> text.read()
-<variant> loadtxt()
-
-<question> Что делает as.numeric()?
-<variant> Преобразует данные в числовой тип.
-<variant> Создаёт факторы
-<variant> Перемешивает значения
-<variant> Возвращает логическое значение
-<variant> Открывает библиотеку
-
-<question> Какая функция выводит график точек?
-<variant> plot().
-<variant> draw()
-<variant> show()
-<variant> graph()
-<variant> figure()
-
-<question> Как построить гистограмму?
-<variant> hist().
-<variant> distribution()
-<variant> histogram()
-<variant> barplot()
-<variant> densityplot()
-
-<question> Как вычислить квантили?
-<variant> quantile().
-<variant> qcalc()
-<variant> quartile()
-<variant> cut()
-<variant> position()
-
-<question> Как выбрать строки, где x > 10?
-<variant> df[df$x > 10,].
-<variant> df>10
-<variant> subset(x>10)
-<variant> filter(x>10)
-<variant> df[x>10]
-
-<question> Что делает function()?
-<variant> Создаёт пользовательскую функцию.
-<variant> Запускает пакет
-<variant> Создаёт цикл
-<variant> Сохраняет объект
-<variant> Объединяет таблицы
-
-<question> Как создать список имён столбцов?
-<variant> names(df).
-<variant> headers(df)
-<variant> colnamesOf(df)
-<variant> fields(df)
-<variant> vars()
-
-<question> Какая функция удаляет неиспользуемые уровни фактора?
-<variant> droplevels().
-<variant> reducelevels()
-<variant> simplify()
-<variant> leveljoin()
-<variant> mergelevels()
-
-<question> Как получить тип данных?
-<variant> typeof().
-<variant> gettype()
-<variant> datatype()
-<variant> typ()
-<variant> infotype()
-
-<question> Как загрузить пакет dplyr?
-<variant> library(dplyr).
-<variant> loadpkg(dplyr)
-<variant> use(dplyr)
-<variant> open(dplyr)
-<variant> attach(dplyr)
-
-<question> Как проверить список загруженных пакетов?
-<variant> search().
-<variant> packages()
-<variant> pkglist()
-<variant> libs()
-<variant> envs()
-
-<question> Как начать запись графика в файл PNG?
-<variant> png("plot.png").
-<variant> saveplot("plot.png")
-<variant> export.png()
-<variant> picture("plot.png")
-<variant> ggsave()
-
-<question> Как завершить запись графика в файл?
-<variant> dev.off().
-<variant> stop()
-<variant> close()
-<variant> enddev()
-<variant> shut()
-
-<question> Что делает функция data.frame()?
-<variant> Создаёт таблицу данных.
-<variant> Строит график точек
-<variant> Создаёт список
-<variant> Выполняет фильтрацию
-<variant> Импортирует CSV
-
-<question> Чем проверить, является ли объект матрицей?
-<variant> is.matrix().
-<variant> checkMatrix()
-<variant> matrixType()
-<variant> isTable()
-<variant> confirmMatrix()
-
-<question> Как получить минимальное значение вектора?
-<variant> min().
-<variant> low()
-<variant> bottom()
-<variant> getMin()
-<variant> floor()
-
-<question> Как получить максимальное значение?
-<variant> max().
-<variant> high()
-<variant> top()
-<variant> getMax()
-<variant> ceil()
-
-<question> Что делает na.omit()?
-<variant> Удаляет строки с пропущенными значениями.
-<variant> Заполняет пропуски нулями
-<variant> Сортирует значения
-<variant> Меняет тип столбцов
-<variant> Сохраняет таблицу
-
-<question> Как выбрать столбцы по имени?
-<variant> df[, c("a","b")].
-<variant> df.select("a","b")
-<variant> df.choose("a","b")
-<variant> df.pick("a","b")
-<variant> df.columns("a","b")
-
-<question> Как объединить две таблицы по ключу?
-<variant> merge().
-<variant> join()
-<variant> bind()
-<variant> union()
-<variant> attach()
-
-<question> Как отсортировать таблицу по столбцу x?
-<variant> df[order(df$x),].
-<variant> sort(df,x)
-<variant> df.sort(x)
-<variant> df[x]
-<variant> df <- order(x)
-
-<question> Как повторить каждое значение 5 раз?
-<variant> rep(x, each=5).
-<variant> repeat(x,5)
-<variant> multi(x,5)
-<variant> clone(x,5)
-<variant> expand(x,5)
-
-<question> Что делает cut()?
-<variant> Разбивает данные на интервалы.
-<variant> Удаляет значения
-<variant> Создаёт копию
-<variant> Строит гистограмму
-<variant> Объединяет значения
-
-<question> Какая функция создаёт последовательность с шагом?
-<variant> seq().
-<variant> range()
-<variant> next()
-<variant> seqfast()
-<variant> generate()
-
-<question> Как получить элементы x, равные 1?
-<variant> x[x == 1].
-<variant> x[equal(1)]
-<variant> select(x,1)
-<variant> x[one]
-<variant> x[1==x]
-
-<question> Как вывести рабочую директорию?
-<variant> getwd().
-<variant> where()
-<variant> workdir()
-<variant> path()
-<variant> pwd()
-
-<question> Как создать последовательность из 20 нулей?
-<variant> rep(0,20).
-<variant> zeros(20)
-<variant> numeric(20,0)
-<variant> fill0(20)
-<variant> newzero(20)
-
-<question> Чем проверить тип данных столбца?
-<variant> class(df$col).
-<variant> type(df$col)
-<variant> structure(df$col)
-<variant> check(df$col)
-<variant> info(df$col)
-
-<question> Как создать логический вектор?
-<variant> c(TRUE,FALSE).
-<variant> logvec()
-<variant> newlogic()
-<variant> logicalVector()
-<variant> asLogic()
-
-<question> Что делает write.table()?
-<variant> Сохраняет данные в текстовый файл.
-<variant> Открывает таблицу
-<variant> Фильтрует текст
-<variant> Создаёт график
-<variant> Преобразует значения
-
-<question> Как получить имена строк?
-<variant> rownames().
-<variant> rownamesOf()
-<variant> rows()
-<variant> getrows()
-<variant> idrows()
-
-<question> Как заменить значения по условию?
-<variant> x[x > 5] <- 5.
-<variant> x <- limit(x,5)
-<variant> fix(x>5)
-<variant> x.rewrite()
-<variant> cutLevels(x)
-
-<question> Как проверить наличие элемента в векторе?
-<variant> %in% .
-<variant> inside()
-<variant> contains()
-<variant> matchIn()
-<variant> find()
-
-<question> Как сложить два вектора?
-<variant> x + y.
-<variant> add(x,y)
-<variant> plus(x,y)
-<variant> merge(x,y)
-<variant> sumVectors(x,y)
-
-<question> Как создать цикл for?
-<variant> for(i in x){}.
-<variant> loop i over x
-<variant> for(x,i)
-<variant> newfor(x)
-<variant> for.in()
-
-<question> Как создать бесконечный цикл?
-<variant> while(TRUE){}.
-<variant> for(i in 1:10){}
-<variant> loop(){}
-<variant> cycle(){}
-<variant> repeatForever(){}
-
-<question> Что делает next в цикле?
-<variant> Переходит к следующей итерации.
-<variant> Завершает цикл
-<variant> Перезапускает цикл
-<variant> Удаляет переменную
-<variant> Пропускает блок кода
-
-<question> Что делает break в цикле?
-<variant> Прерывает выполнение цикла.
-<variant> Начинает цикл заново
-<variant> Перематывает к началу
-<variant> Удаляет объект
-<variant> Печатает переменную
-
-<question> Как создать пустую таблицу?
-<variant> data.frame().
-<variant> newtable()
-<variant> empty()
-<variant> create()
-<variant> datatable()
-
-<question> Как преобразовать число в текст?
-<variant> as.character().
-<variant> as.text()
-<variant> convertString()
-<variant> stringify()
-<variant> makechar()
-
-<question> Что делает paste()?
-<variant> Объединяет строки.
-<variant> Сортирует текст
-<variant> Удаляет пробелы
-<variant> Дублирует слова
-<variant> Создаёт файл
-
-<question> Как вывести объект на экран?
-<variant> print().
-<variant> show()
-<variant> out()
-<variant> display()
-<variant> view()
-
-<question> Как создать data.frame с именами столбцов?
-<variant> data.frame(a=x,b=y).
-<variant> frame(x,y)
-<variant> tab(a,b)
-<variant> df.new(x,y)
-<variant> dataset(x,y)
-
-<question> Как склеить строки без пробела?
-<variant> paste0().
-<variant> pasteNone()
-<variant> join0()
-<variant> link()
-<variant> collapse()
-
-<question> Как проверить точное совпадение строк?
-<variant> identical().
-<variant> same()
-<variant> matchFull()
-<variant> compare()
-<variant> equals()
-
-<question> Как обратить порядок элементов?
-<variant> rev().
-<variant> flip()
-<variant> reverse()
-<variant> rsort()
-<variant> back()
-
-<question> Чем получить позиции TRUE?
-<variant> which().
-<variant> whereTrue()
-<variant> getTrue()
-<variant> findTrue()
-<variant> index()
-
-<question> Как получить уникальные строки?
-<variant> unique(df).
-<variant> distinctRows(df)
-<variant> df.clean()
-<variant> onlyrows(df)
-<variant> norepeat(df)
-
-<question> Как преобразовать вектор в матрицу?
-<variant> matrix(x,nrow=...).
-<variant> as.mat(x)
-<variant> convert(x,"matrix")
-<variant> reshape(x)
-<variant> form(x)
-
-<question> Как объединить два фактора?
-<variant> factor(c(f1,f2)).
-<variant> joinFactor()
-<variant> combineLevels()
-<variant> mixFactor()
-<variant> addFactor()
-
-<question> Как заменить уровни фактора?
-<variant> levels(x) <- new.
-<variant> x <- refactor(new)
-<variant> changelevels()
-<variant> editFactor()
-<variant> updateFactor()
-
-<question> Как узнать количество уровней фактора?
-<variant> nlevels().
-<variant> countLevels()
-<variant> flevels()
-<variant> lenlevels()
-<variant> numlevels()
-
-<question> Чем объединить строки текста в одну?
-<variant> paste(text,collapse="").
-<variant> joinStrings(text)
-<variant> connect(text)
-<variant> flatten(text)
-<variant> mergeStrings(text)
-
-<question> Как получить логический вектор из условий?
-<variant> x > 5.
-<variant> logical(x)
-<variant> compare(x)
-<variant> isGreater(x)
-<variant> test(x)
-
-<question> Как проверить соответствие шаблону?
-<variant> grepl().
-<variant> pattern()
-<variant> matchp()
-<variant> regexp()
-<variant> grepfind()
-
-<question> Что делает abs()?
-<variant> Возвращает модуль числа.
-<variant> Убирает отрицательные значения
-<variant> Сортирует числа
-<variant> Делит числа
-<variant> Заменяет NA
-
-<question> Как выполнить округление?
-<variant> round().
-<variant> fix()
-<variant> approx()
-<variant> mid()
-<variant> normalize()
-
-<question> Как работает is.logical()?
-<variant> Проверяет, является ли объект логическим.
-<variant> Конвертирует в логический тип
-<variant> Создаёт логические значения
-<variant> Переводит TRUE в FALSE
-<variant> Преобразует таблицу
-
-<question> Что делает duplicated()?
-<variant> Находит повторяющиеся элементы.
-<variant> Сортирует значения
-<variant> Удаляет строки
-<variant> Сохраняет таблицу
-<variant> Строит гистограмму
-
-<question> Как удалить столбец из таблицы df?
-<variant> df$col <- NULL.
-<variant> remove(df$col)
-<variant> df - col
-<variant> dropcol(df,col)
-<variant> delete(df$col)
-
-<question> Как соединить строки в один текст с пробелом?
-<variant> paste(text, collapse=" ").
-<variant> concat(text)
-<variant> textjoin(text)
-<variant> mix(text)
-<variant> combine(text)
-
-<question> Что делает subset()?
-<variant> Фильтрует строки таблицы по условию.
-<variant> Создаёт новую таблицу
-<variant> Удаляет NA
-<variant> Меняет тип столбцов
-<variant> Создаёт список
-
-<question> Как преобразовать матрицу в вектор?
-<variant> as.vector().
-<variant> vectorize()
-<variant> convertV()
-<variant> flatten()
-<variant> collapse()
-
-<question> Как проверить, является ли объект фактором?
-<variant> is.factor().
-<variant> isf()
-<variant> factorcheck()
-<variant> iscat()
-<variant> checkFactor()
-
-<question> Как посчитать сумму по строкам?
-<variant> rowSums().
-<variant> sumRows()
-<variant> addRows()
-<variant> totalRows()
-<variant> rowsumcalc()
-
-<question> Как посчитать сумму по столбцам?
-<variant> colSums().
-<variant> sumCols()
-<variant> addCols()
-<variant> totalCols()
-<variant> colsumcalc()
-
-<question> Что делает t()?
-<variant> Транспонирует матрицу.
-<variant> Умножает матрицу
-<variant> Удаляет строки
-<variant> Разворачивает вектор
-<variant> Строит график
-
-<question> Как получить плотность распределения?
-<variant> density().
-<variant> smooth()
-<variant> distr()
-<variant> statCurve()
-<variant> shapecurve()
-
-<question> Как создать фактор с порядком уровней?
-<variant> factor(x, ordered=TRUE).
-<variant> orderedFactor(x)
-<variant> factor(x,"order")
-<variant> arrangeFactor(x)
-<variant> groupordered(x)
-
-<question> Как заменить NA на 0?
-<variant> x[is.na(x)] <- 0.
-<variant> fillzero(x)
-<variant> replaceNA(x)
-<variant> clearNA(x)
-<variant> x <- noNA(x)
-
-<question> Что делает prop.table()?
-<variant> Преобразует частоты в доли.
-<variant> Считает сумму
-<variant> Строит таблицу
-<variant> Моделирует данные
-<variant> Заменяет уровни фактора
-
-<question> Как вычислить корреляцию?
-<variant> cor().
-<variant> corr()
-<variant> correlate()
-<variant> cvalue()
-<variant> link()
-
-<question> Как построить диаграмму размаха?
-<variant> boxplot().
-<variant> whisker()
-<variant> plotbox()
-<variant> rangeplot()
-<variant> statsplot()
-
-<question> Как получить регрессионную модель y ~ x?
-<variant> lm(y ~ x).
-<variant> regress(y,x)
-<variant> model(y,x)
-<variant> reg(y~x)
-<variant> trend(y,x)
-
-<question> Как вывести коэффициенты модели?
-<variant> coef().
-<variant> coefs()
-<variant> getcoef()
-<variant> modelcoef()
-<variant> lmcoef()
-
-<question> Как вывести резюме модели?
-<variant> summary(model).
-<variant> report(model)
-<variant> info(model)
-<variant> stats(model)
-<variant> print.lm(model)
-
-<question> Как создать вектор логических значений на основе условия?
-<variant> x > 0.
-<variant> logical(x)
-<variant> compare(x)
-<variant> test(x)
-<variant> x + TRUE
-
-<question> Как вычислить ранги значений?
-<variant> rank().
-<variant> rcalc()
-<variant> ordering()
-<variant> pos()
-<variant> rorder()
-
-<question> Как получить длину списка?
-<variant> length(list).
-<variant> size(list)
-<variant> count(list)
-<variant> n(list)
-<variant> len(list)
-
-<question> Что делает diff()?
-<variant> Вычисляет разности между элементами.
-<variant> Делит элементы пополам
-<variant> Умножает элементы
-<variant> Вычитает последнее значение
-<variant> Сортирует значения
-
-<question> Как вычислить форматированное значение?
-<variant> format().
-<variant> style()
-<variant> decor()
-<variant> prettify()
-<variant> char()
-
-<question> Как выполнить поэлементное сравнение?
-<variant> == .
-<variant> ===
-<variant> equal()
-<variant> eq()
-<variant> cmp()
-
-<question> Как объединить два вектора в один?
-<variant> c(x,y).
-<variant> unite(x,y)
-<variant> join(x,y)
-<variant> add(x,y)
-<variant> glue(x,y)
-
-<question> Как получить NA-safe сумму?
-<variant> sum(x, na.rm=TRUE).
-<variant> sumsafe(x)
-<variant> sumclean(x)
-<variant> clearsum(x)
-<variant> nosumNA(x)
-
-<question> Что делает sample()?
-<variant> Берёт случайную выборку.
-<variant> Строит таблицу
-<variant> Создаёт последовательность
-<variant> Заменяет NA
-<variant> Упорядочивает значения
-
-<question> Как получить индексы максимальных значений?
-<variant> which.max().
-<variant> maxindex()
-<variant> findmax()
-<variant> pickmax()
-<variant> placeMax()
-
-<question> Как получить индексы минимальных значений?
-<variant> which.min().
-<variant> minindex()
-<variant> findmin()
-<variant> pickmin()
-<variant> placeMin()
-
-<question> Как выбрать подмножество столбцов?
-<variant> df[c("a","b")].
-<variant> df.pick("a","b")
-<variant> df.columns(a,b)
-<variant> df.sub(a,b)
-<variant> selectcols(df)
-
-<question> Как выполнить логическое И?
-<variant> & .
-<variant> &&&
-<variant> and()
-<variant> +
-<variant> intersect()
-
-<question> Как выполнить логическое ИЛИ?
-<variant> | .
-<variant> or()
-<variant> |||
-<variant> union()
-<variant> add()
-
-<question> Как удалить все объекты из среды?
-<variant> rm(list=ls()).
-<variant> clear()
-<variant> deleteAll()
-<variant> clean()
-<variant> reset()
-
-<question> Как проверить, является ли объект списком?
-<variant> is.list().
-<variant> listcheck()
-<variant> checkList()
-<variant> verifyList()
-<variant> isObjList()
-
-<question> Как проверить, является ли объект строкой?
-<variant> is.character().
-<variant> is.string()
-<variant> istext()
-<variant> checkChar()
-<variant> charTest()
-
-<question> Что делает exp()?
-<variant> Возвращает экспоненту.
-<variant> Создаёт фактор
-<variant> Делает логарифм
-<variant> Создаёт последовательность
-<variant> Формирует матрицу
-
-<question> Что делает log()?
-<variant> Вычисляет логарифм.
-<variant> Умножает значения
-<variant> Делает статистику
-<variant> Убирает NA
-<variant> Создаёт таблицу
-
-<question> Как получить диагональ матрицы?
-<variant> diag().
-<variant> getdiag()
-<variant> extractdiag()
-<variant> diagonal()
-<variant> axis()
-
-<question> Как создать диагональную матрицу?
-<variant> diag(x).
-<variant> matrixDiag(x)
-<variant> mdiag(x)
-<variant> diagmat(x)
-<variant> matdiag(x)
-
-<question> Как создать дата-фрейм с автоматическими именами строк?
-<variant> data.frame(x).
-<variant> newdata(x)
-<variant> dfauto(x)
-<variant> tableform(x)
-<variant> dfmake(x)
-
-<question> Как вывести имена столбцов таблицы?
-<variant> colnames().
-<variant> columns()
-<variant> getColumns()
-<variant> namesOfCols()
-<variant> fields()
-
-<question> Что делает aggregate()?
-<variant> Группирует данные и вычисляет статистики.
-<variant> Разбивает таблицу
-<variant> Очищает NA
-<variant> Переставляет столбцы
-<variant> Создаёт индексы
-
-<question> Как получить список функций пакета?
-<variant> ls("package:pkg").
-<variant> pkg.functions()
-<variant> listPkg()
-<variant> funcs(pkg)
-<variant> showpkg(pkg)
-
-<question> Что делает match()?
-<variant> Находит позиции совпадений.
-<variant> Сортирует значения
-<variant> Делает join
-<variant> Объединяет строки
-<variant> Меняет тип данных
-
-<question> Как создать последовательность дат?
-<variant> seq.Date().
-<variant> dateSeq()
-<variant> newDates()
-<variant> calendar()
-<variant> datelist()
-
-<question> Как получить текущую дату?
-<variant> Sys.Date().
-<variant> today()
-<variant> currentDate()
-<variant> nowDate()
-<variant> dateNow()
-
-<question> Как получить текущее время?
-<variant> Sys.time().
-<variant> now()
-<variant> time()
-<variant> timeNow()
-<variant> gettime()
-
-<question> Как выполнить группировку данных по фактору?
-<variant> tapply().
-<variant> group()
-<variant> fapply()
-<variant> applyFactor()
-<variant> mapFactor()
-
-<question> Как получить объединённый вектор уровней фактора?
-<variant> levels().
-<variant> groups()
-<variant> categories()
-<variant> names()
-<variant> modes()
-
-<question> Что делает reorder()?
-<variant> Меняет порядок уровней фактора.
-<variant> Переставляет столбцы
-<variant> Удаляет значения
-<variant> Строит график
-<variant> Создаёт таблицу
-
-<question> Что делает fwrite() из data.table?
-<variant> Быстро сохраняет таблицу в файл.
-<variant> Быстро загружает таблицу
-<variant> Создаёт директорию
-<variant> Переводит типы
-<variant> Строит графики
-
-<question> Как зафиксировать случайность генерации чисел в R для воспроизводимости?
-<variant> Использовать функцию set.seed().
-<variant> Включить режим random.off()
-<variant> Присвоить переменной seed значение 0
-<variant> Использовать функцию random.lock()
-<variant> Вызвать функцию fix.random()
-
-<question> Как создать новый проект в RStudio для отдельного анализа?
-<variant> Через меню File → New Project….
-<variant> Вызвать функцию new_project() в консоли
-<variant> Ввести команду create.project()
-<variant> Запустить скрипт project_new.R
-<variant> Нажать кнопку Run и выбрать Project Mode
+<question> Что является главной задачей А/В-теста, согласно лекции?
+<variant> Не просто доказать гипотезу, а понять истину о поведении пользователей и принять осознанное решение.
+<variant> Быстро внедрить любое изменение, показавшее рост CTR
+<variant> Максимально увеличить размер выборки
+<variant> Найти ошибку в коде продукта
+<variant> Получить статистически значимый результат за один день
+<question> Какое условие является ключевым для корректного А/В-теста?
+<variant> Результат должен быть статистически значимым, а не просто оценен «на глаз».
+<variant> Тест должен завершиться в течение 24 часов
+<variant> Тест должен проводиться только на старых пользователях
+<variant> Изменения должны быть максимально радикальными
+<variant> Необходимо использовать только одну метрику
+<question> Что необходимо сделать, если после первых дней теста наблюдается рост метрики, но данных недостаточно?
+<variant> Продлить тест или увеличить размер выборки для достижения статистической значимости.
+<variant> Немедленно завершить тест и внедрить изменение
+<variant> Увеличить разницу между контрольной и тестовой группами
+<variant> Изменить основную метрику на более чувствительную
+<variant> Начать новый тест с новой гипотезой
+<question> Что означает ошибка «Преждевременное завершение теста»?
+<variant> Тест остановлен слишком рано, когда увиден «рост», но данных мало для статистически достоверного вывода.
+<variant> Тест был запущен в неудачное время (сезонность)
+<variant> Для оценки выбрана неправильная метрика
+<variant> Пользователи из разных групп пересеклись
+<variant> Были проигнорированы вторичные эффекты
+<question> В чем заключается риск ошибки «Пересечение аудиторий» в А/В-тесте?
+<variant> Один и тот же пользователь попал в контрольную и экспериментальную группы, что нарушает независимость и искажает результат.
+<variant> Аудитория была слишком большой
+<variant> Была выбрана слишком долгая продолжительность теста
+<variant> Была использована только одна метрика
+<variant> Наблюдается сильное влияние сезонности
+<question> В чем состоит риск «Игнорирования вторичных эффектов»?
+<variant> Например, CTR вырос, но одновременно увеличились и возвраты (отток), что ухудшает общий бизнес-результат.
+<variant> Тест не дал статистически значимого результата
+<variant> Тест был завершен слишком рано
+<variant> Возникает пересечение аудиторий
+<variant> Нарушается равномерное распределение пользователей
+<question> Если основная метрика теста — «Конверсия из регистрации в первый урок», а в тесте проверяется бонус «+1 бесплатный урок», какой тип мотивации проверяется?
+<variant> Дополнительная мотивация начать обучение (психологический фактор).
+<variant> Рациональность потребителя (экономический фактор)
+<variant> Влияние социального статуса
+<variant> Влияние сезонности
+<variant> Финансовый риск
+<question> В процессе проектирования А/В-теста, какой шаг необходимо предпринять после постановки гипотезы и выбора метрики?
+<variant> Определить контрольную и экспериментальную группы и описать, как будут распределены пользователи.
+<variant> Сразу завершить тест
+<variant> Изменить гипотезу
+<variant> Игнорировать вторичные метрики
+<variant> Изменить дизайн продукта
+<question> В контексте А/В-тестирования, почему важно учитывать «Влияние сезонности»?
+<variant> В разные дни недели или месяцы поведение пользователей отличается, что может исказить результаты теста.
+<variant> Сезонность влияет только на финансовый риск
+<variant> Сезонность всегда приводит к росту CTR
+<variant> Сезонность не имеет отношения к онлайн-платформам
+<variant> Сезонность необходима для достижения статистической значимости
+<question> Что, согласно лекции, является ключевым выводом о роли А/В-тестирования в принятии решений?
+<variant> А/В-тест — это инструмент принятия решений, где достоверность важнее скорости.
+<variant> А/В-тест — это инструмент, позволяющий избежать любых ошибок
+<variant> А/В-тест — это исключительно способ доказать интуицию менеджера
+<variant> А/В-тест — это процесс, который всегда должен приводить к 100% росту конверсии
+<variant> А/В-тест — это процесс, где ошибки не являются частью обучения
+<question> Что такое рост продукта?
+
+ <variant> Увеличение ключевых бизнес-метрик.
+<variant> Рост количества функций
+<variant> Изменение дизайна
+<variant> Увеличение бюджета
+<variant> Рост числа багов
+<question> В чем цель монетизации?
+
+ <variant> Превратить ценность продукта в деньги.
+<variant> Увеличить DAU
+<variant> Упростить интерфейс
+<variant> Увеличить бесплатный функционал
+<variant> Уменьшить цену подписки
+<question> Что относится к acquisition led growth?
+
+ <variant> Привлечение новых пользователей.
+<variant> Рост удержания
+<variant> Изменение тарифа
+<variant> Персонализация контента
+<variant> Сокращение онбординга
+<question> Что является фокусом activation led growth?
+
+ <variant> Быстрое понимание ценности продукта.
+<variant> Увеличение цены
+<variant> Добавление новых экранов
+<variant> Рост рекламных показов
+<variant> Расширение тарифа
+<question> Какая гипотеза относится к retention led growth?
+
+ <variant> Персональные подборки повышают активность.
+<variant> Увеличение цены подписки
+<variant> Сокращение регистрации
+<variant> Добавление реферального бонуса
+<variant> Удаление части функционала
+<question> Что является целью revenue led growth?
+
+ <variant> Увеличение дохода продукта.
+<variant> Уменьшение траты на маркетинг
+<variant> Снижение нагрузки на серверы
+<variant> Увеличение DAU
+<variant> Добавление нового онбординга
+<question> Какая формула правильной гипотезы роста?
+
+ <variant> Если мы сделаем изменение, метрика вырастет, потому что есть обоснование.
+<variant> Добавим функцию и посмотрим что будет
+<variant> Сделаем новый дизайн и метрики вырастут
+<variant> Улучшим интерфейс просто так
+<variant> Пробуем что-то случайное
+<question> Что характеризует freemium модель?
+
+ <variant> Бесплатная версия плюс переход в премиум.
+<variant> Только реклама
+<variant> Только разовая покупка
+<variant> Только подписка
+<variant> Полный доступ без ограничений
+<question> Что улучшает эффективность paywall?
+
+ <variant> Добавление понятных выгод и информации.
+<variant> Увеличение шагов оплаты
+<variant> Усложнение интерфейса
+<variant> Удаление описания тарифа
+<variant> Скрытие условий
+<question> Как выглядит пример плохой гипотезы?
+
+ <variant> Сделаем новый дизайн и метрики вырастут.
+<variant> Сократим форму оплаты
+<variant> Дадим пользователю бонус
+<variant> Покажем ценность на старте
+<variant> Добавим пробный период
+<question> Что такое Lifetime Value (LTV) в контексте бизнес-метрик?
+<variant> Прогнозируемый доход, который один пользователь принесёт за всё время взаимодействия с продуктом.
+<variant> Средний чек одной покупки пользователя
+<variant> Стоимость привлечения одного нового пользователя
+<variant> Общая выручка компании за один квартал
+<variant> Количество сессий на одного пользователя в месяц
+<question> Какую роль в А/В-тестировании выполняет «защитная» (guardrail) метрика?
+<variant> Она помогает отследить, не ухудшились ли другие важные показатели, пока мы улучшали основную метрику.
+<variant> Она всегда является основной метрикой теста
+<variant> Она используется для расчета статистической значимости
+<variant> Она показывает, сколько денег принесет изменение
+<variant> Её цель — ускорить завершение теста
+<question> Что показывает p-value в результатах А/В-тестирования?
+<variant> Вероятность получить наблюдаемые (или более сильные) различия случайно, если на самом деле никакой разницы между вариантами нет.
+<variant> Точный процент роста конверсии, который принесло изменение
+<variant> Количество пользователей, принявших участие в тесте
+<variant> Длительность теста в днях
+<variant> Финансовую выгоду от внедрения тестового варианта
+<question> Что такое ошибка первого рода (Type I error) в А/В-тестировании?
+<variant> Ситуация, когда мы делаем вывод, что разница есть, хотя на самом деле её нет (ложноположительный результат).
+<variant> Ситуация, когда мы не видим разницы, хотя она существует (ложноотрицательный результат)
+<variant> Техническая ошибка в коде, из-за которой тест работает некорректно
+<variant> Преждевременное завершение теста из-за нетерпеливости
+<variant> Выбор неправильной метрики для оценки результатов
+<question> Что означает компонент 'Reach' (Охват) в RICE-фреймворке для приоритизации гипотез?
+<variant> Количество пользователей, которых затронет изменение за определённый период времени.
+<variant> Уверенность команды в успехе гипотезы в процентах
+<variant> Предполагаемый рост ключевой метрики
+<variant> Сложность реализации гипотезы в часах
+<variant> Общий доход, который принесёт это изменение
+<question> Какую бизнес-метрику описывает ARPU (Average Revenue Per User)?
+<variant> Средний доход, приходящийся на одного активного пользователя за определённый период.
+<variant> Доход, полученный только от платящих пользователей
+<variant> Стоимость привлечения одного пользователя
+<variant> Чистую прибыль компании с вычетом всех расходов
+<variant> Количество покупок, совершённых одним пользователем
+<question> С какой основной целью проводится А/А-тест?
+<variant> Для проверки корректности работы системы сплитования и чтобы убедиться, что между группами изначально нет статистических различий.
+<variant> Для сравнения двух абсолютно разных дизайнов продукта
+<variant> Для максимально быстрого получения статистически значимого результата
+<variant> Чтобы протестировать изменение сразу на всей аудитории
+<variant> Чтобы выбрать, какую метрику лучше отслеживать
+<question> Как Retention-led growth (рост за счёт удержания) напрямую влияет на LTV?
+<variant> Чем дольше пользователь остается в продукте (выше retention), тем больше дохода он успевает принести (выше LTV).
+<variant> Удержание никак не связано с LTV
+<variant> Высокий retention всегда снижает средний чек
+<variant> LTV зависит только от скорости привлечения новых пользователей
+<variant> Чем выше удержание, тем выше стоимость привлечения
+<question> Что такое нулевая гипотеза (H0) в А/В-тестировании?
+<variant> Предположение о том, что между вариантами A и B нет статистически значимой разницы.
+<variant> Предположение, что тестовый вариант гарантированно лучше контрольного
+<variant> Гипотеза, которая всегда подтверждается
+<variant> Описание бизнес-цели, которую преследует тест
+<variant> Итоговый вывод, который делается после завершения теста
+<question> Какой психологический приём часто используется на paywall (экране оплаты) для повышения конверсии в покупку?
+<variant> Демонстрация социальной валидации (отзывы, количество купивших) или создание ощущения срочности (ограниченное предложение).
+<variant> Максимальное усложнение процесса оплаты
+<variant> Скрытие полной информации о тарифах до момента списания
+<variant> Отсутствие каких-либо бесплатных или пробных опций
+<variant> Использование исключительно текстового описания без визуальных элементов
+<question> Что показывает метрика Churn Rate (Коэффициент оттока)?
+<variant> Процент пользователей, которые прекратили использовать продукт (ушли) за определённый период.
+<variant> Процент новых пользователей, пришедших за период
+<variant> Среднее время, которое пользователь проводит в приложении
+<variant> Количество пользователей, совершивших покупку
+<variant> Долю пользователей, которые вернулись после долгого отсутствия
+<question> Какое событие считается ключевым для этапа Активации (Activation)?
+<variant> «Ага-момент», когда пользователь впервые осознаёт и получает реальную ценность от продукта.
+<variant> Момент завершения регистрации в продукте
+<variant> Первая оплата подписки или товара
+<variant> Переход пользователя по рекламной ссылке
+<variant> Удаление приложения после первого запуска
+<question> Чем многовариантный тест (multivariate test) отличается от классического А/В-теста?
+<variant> Он позволяет одновременно тестировать комбинации нескольких изменений на одной странице, чтобы выявить наиболее эффективное сочетание.
+<variant> Он всегда проводится значительно быстрее, чем А/В-тест
+<variant> Он требует намного меньше трафика для получения результата
+<variant> Он используется только для проверки изменения одного слова
+<variant> Он сравнивает только два варианта, но на разных страницах
+<question> Какая из этих моделей является примером транзакционной монетизации?
+<variant> Продажа цифровых товаров в онлайн-игре или оплата за каждую отдельную консультацию на сервисе.
+<variant> Ежемесячная подписка на стриминговый сервис
+<variant> Бесплатное мобильное приложение, зарабатывающее на показе рекламы
+<variant> Бесплатный пробный период с последующим автоматическим списанием за подписку
+<variant> Базовая бесплатная версия программы с опцией покупки премиум-доступа
+<question> Что означает компонент 'Confidence' (Уверенность) в ICE/RICE-фреймворках?
+<variant> Насколько команда уверена в своей оценке охвата и влияния, основываясь на данных и предыдущем опыте.
+<variant> Насколько быстро можно технически реализовать гипотезу
+<variant> Точный процент пользователей, которых затронет изменение
+<variant> Ожидаемый рост ключевой бизнес-метрики
+<variant> Насколько сильно этого изменения хотят пользователи
+<question> Что такое статистическая мощность (Statistical Power) теста?
+<variant> Вероятность обнаружить эффект (разницу), если он действительно существует (то есть избежать ошибки второго рода).
+<variant> Вероятность допустить ошибку первого рода (найти разницу там, где её нет)
+<variant> Скорость работы системы, которая проводит тест
+<variant> Количество вариантов, которые можно протестировать одновременно
+<variant> Уверенность менеджера продукта в успехе гипотезы
+<question> Что такое «виральный цикл» (viral loop) в контексте роста продукта?
+<variant> Механизм, при котором сами пользователи продукта приводят новых пользователей (например, через реферальные ссылки «пригласи друга»).
+<variant> Цикл, в котором старые пользователи возвращаются в продукт
+<variant> Процесс превращения бесплатного пользователя в платящего
+<variant> Цикл разработки и выпуска новых функций
+<variant> Процесс сбора обратной связи от пользователей
+<question> Чем метрика ARPPU (Average Revenue Per Paying User) отличается от ARPU?
+<variant> ARPPU учитывает доход только от платящих пользователей, поэтому она всегда выше или равна ARPU.
+<variant> ARPPU всегда ниже, чем ARPU, так как платящих пользователей меньше
+<variant> ARPU учитывает только доход от рекламы, а ARPPU — от подписок
+<variant> ARPPU — это доход за весь жизненный цикл клиента, а ARPU — за месяц
+<variant> Эти метрики абсолютно идентичны и взаимозаменяемы
+<question> Что такое минимально обнаруживаемый эффект (MDE - Minimum Detectable Effect)?
+<variant> Минимальное изменение метрики, которое тест способен зафиксировать с заданной статистической мощностью и уровнем значимости.
+<variant> Максимальный рост, который может показать метрика в результате теста
+<variant> Время, необходимое для проведения теста до получения результата
+<variant> Количество пользователей, которые должны быть в контрольной группе
+<variant> Стоимость проведения одного А/В-теста для компании
+<question> Почему для продуктов с моделью Freemium так важен этап активации (Activation)?
+<variant> Потому что без быстрого осознания ценности продукта у пользователя не будет мотивации переходить на платный тариф.
+<variant> Потому что Freemium модели не зависят от удержания пользователей
+<variant> Потому что активация напрямую снижает стоимость привлечения
+<variant> Потому что в Freemium моделях нет платящих пользователей
+<variant> Потому что активация влияет только на виральность продукта
+<question> Что является конечной целью процесса маркетингового планирования?
+ <variant> Формулирование маркетинговых целей и планов их достижения.
+ <variant> Определение бюджета отдела закупок
+ <variant> Подготовка годовой отчётности для налоговой
+ <variant> Увеличение числа филиалов компании
+ <variant> Разработка нового логотипа
+<question> Какой из этапов АСП-подхода идёт первым?
+ <variant> Анализ (ситуации, рынка, среды).
+ <variant> Программы внедрения
+ <variant> Стратегические решения
+ <variant> Контроль исполнения
+ <variant> Формирование миссии
+<question> Что НЕ относится к задачам маркетингового планирования?
+ <variant> Разработка кадровой политики предприятия.
+ <variant> Определение целей
+ <variant> Установление исходных данных
+ <variant> Определение рамок планирования
+ <variant> Задание структуры планов
+<question> Какой показатель описывает прибыль после уплаты налогов?
+ <variant> Чистая прибыль.
+ <variant> Валовая (балансовая) прибыль
+ <variant> Прибыль к налогообложению
+ <variant> Маржинальная прибыль
+ <variant> Операционная прибыль
+<question> Формула ROI измеряет…
+ <variant> Норму чистой прибыли на вложенный капитал.
+ <variant> Уровень ликвидности оборотных активов
+ <variant> Отношение активов к обязательствам
+ <variant> Коэффициент оборачиваемости запасов
+ <variant> Рост выручки по сегментам
+<question> Какое минимально допустимое значение отношения собственного капитала к активам указано в лекции?
+ <variant> Более 50 %.
+ <variant> Ровно 25 %
+ <variant> Менее 10 %
+ <variant> 0 % (допускается полный заём)
+ <variant> 15–20 %
+<question> Что такое маркетинговый аудит?
+ <variant> Комплексная оценка маркетинговой деятельности.
+ <variant> Расчёт амортизации оборудования
+ <variant> Проверка бухгалтерского баланса
+ <variant> Анализ производственной программы
+ <variant> Разработка рекламного слогана
+<question> Какая основная цель контроля в маркетинге?
+ <variant> Сравнение фактических результатов с плановыми.
+ <variant> Повышение заработной платы
+ <variant> Разработка мотивационной политики
+ <variant> Улучшение производственных процессов
+ <variant> Оптимизация налогообложения
+<question> Что входит в миссию предприятия?
+ <variant> Общие цели и философия компании.
+ <variant> Подробный маркетинговый бюджет
+ <variant> План закупок сырья
+ <variant> График работы персонала
+ <variant> Список филиалов
+<question> Что такое стратегия в маркетинге?
+ <variant> Общий план достижения маркетинговых целей.
+ <variant> Подробное расписание встреч
+ <variant> Инструкция по технике безопасности
+ <variant> Список складских запасов
+ <variant> Планирование кадров
+
+<question>Чем гипотеза отличается от просто идеи или пожелания?</question>
+<variant>Гипотеза привязана к метрике и содержит обоснование эффекта</answer>
+<variant>Гипотеза всегда описывает сразу несколько изменений</answer>
+<variant>Гипотеза формулируется только в виде задачи в Jira</answer>
+<variant>Гипотеза не требует проверки экспериментом</answer>
+<variant>Гипотеза — это любое предложение по улучшению продукта</answer>
+
+<question>Какая структура корректной продуктовой гипотезы описана в лекции?</question>
+<variant>Если мы сделаем X, то изменится Y, потому что Z</answer>
+<variant>Если пользователям не нравится продукт, то нужно сделать редизайн</answer>
+<variant>Когда вырастет трафик, конверсия тоже вырастет</answer>
+<variant>Если мы сделаем X, то пользователям станет лучше</answer>
+<variant>Сделаем X, чтобы увеличить прибыль компании</answer>
+
+<question>Какое из требований к гипотезе является ключевым с точки зрения бизнес-метрик?</question>
+<variant>Измеримость — должна быть привязана к конкретной метрике</answer>
+<variant>Креативность формулировки</answer>
+<variant>Наличие не менее трёх идей в одной гипотезе</answer>
+<variant>Использование только качественных (не числовых) показателей</answer>
+<variant>Отсутствие ограничений по времени проверки</answer>
+
+<question>Какой из примеров является хорошей гипотезой в терминах бизнес-метрик?</question>
+<variant>Если сократить регистрацию с 5 до 2 шагов, то конверсия в регистрацию вырастет с 30% до 45%, потому что пользователи чаще доходят до конца формы</answer>
+<variant>Сделаем сайт красивее, чтобы пользователям нравилось больше</answer>
+<variant>Улучшим UX, и метрики сами вырастут</answer>
+<variant>Добавим анимации, чтобы интерфейс был современным</answer>
+<variant>Сократим регистрацию, и пользователям станет лучше</answer>
+
+<question>Для чего в продуктовой работе нужна приоритизация гипотез?</question>
+<variant>Чтобы выбрать, какие гипотезы тестировать первыми при ограниченных ресурсах</answer>
+<variant>Чтобы выписать все идеи в один список</answer>
+<variant>Чтобы согласовать дизайн интерфейса с командой маркетинга</answer>
+<variant>Чтобы всегда реализовывать только самые лёгкие задачи</answer>
+<variant>Чтобы отсортировать гипотезы по алфавиту</answer>
+
+<question>Какие три компонента входят в ICE-фреймворк?</question>
+<variant>Impact, Confidence, Ease</answer>
+<variant>Reach, Impact, Cost</answer>
+<variant>Impact, Importance, Effort</answer>
+<variant>Potential, Impact, Ease</answer>
+<variant>Reach, Confidence, Effort</answer>
+
+<question>Как рассчитывается итоговый балл по RICE-фреймворку?</question>
+<variant>(Reach × Impact × Confidence) / Effort</answer>
+<variant>(Impact + Confidence + Ease) / 3</answer>
+<variant>(Impact × Ease) / Confidence</answer>
+<variant>(Reach + Impact + Confidence + Effort) / 4</answer>
+<variant>(Reach × Impact) − Effort</answer>
+
+<question>Какая составляющая в RICE отвечает за оценку того, сколько пользователей затронет изменение?</question>
+<variant>Reach</answer>
+<variant>Impact</answer>
+<variant>Confidence</answer>
+<variant>Effort</answer>
+<variant>Ease</answer>
+
+<question>Какое из утверждений о гипотезах корректно с точки зрения управления бизнес-метриками?</question>
+<variant>Гипотеза — это проверяемое предположение о влиянии изменения на метрику, а не гарантия результата</answer>
+<variant>Гипотеза всегда должна приводить к росту всех метрик сразу</answer>
+<variant>Если гипотеза хорошо звучит, её можно не проверять</answer>
+<variant>Гипотеза считается верной, если её придумал продукт-менеджер</answer>
+<variant>Гипотеза не должна содержать никаких количественных целей</answer>
+
+<question>Зачем в приоритизации гипотез учитывается параметр Ease/Effort (лёгкость/усилия)?</question>
+<variant>Чтобы учитывать стоимость и сложность реализации при выборе, за какие гипотезы браться</answer>
+<variant>Чтобы всегда выбрать самые сложные и амбициозные гипотезы</answer>
+<variant>Чтобы оценить, сколько людей в команде нравится идея</answer>
+<variant>Чтобы измерить, насколько сильно гипотеза повлияет на метрику</answer>
+<variant>Чтобы определить, сколько времени займёт анализ результатов эксперимента</answer>
+<question>Что отличает настоящую продуктовую гипотезу от просто идеи?</question>
+<variant>Она обязательно привязана к конкретной метрике и содержит обоснование эффекта.</answer>
+<variant>Гипотеза всегда записывается в задаче в Jira</answer>
+<variant>Любое пожелание пользователя — это уже гипотеза</answer>
+<variant>Гипотеза формулируется только командой маркетинга</answer>
+<variant>Гипотеза не требует проверки экспериментом</answer>
+
+<question>Какая формулировка считается правильной структурой гипотезы?</question>
+<variant>Если мы внедрим X, то Y изменится, потому что Z.</answer>
+<variant>Добавим функцию — станет лучше</answer>
+<variant>Сделаем редизайн и ждем роста ключевых метрик</answer>
+<variant>Упростим интерфейс — будет меньше обращений</answer>
+<variant>Уменьшим цену — вырастет доходность</answer>
+
+<question>Что обязательно должно быть у продуктовой гипотезы?</question>
+<variant>Измеримый критерий — связь с бизнес-метрикой.</answer>
+<variant>Красивое описание без цифр</answer>
+<variant>Описание нескольких улучшений сразу</answer>
+<variant>Важно согласование с финансовым директором</answer>
+<variant>Срок реализации гипотезы неограничен</answer>
+
+<question>Какой из примеров — корректная продуктовая гипотеза?</question>
+<variant>Если сократить регистрацию с 4 до 2 шагов, то конверсия вырастет на 10%, потому что меньше пользователей "сходят с дистанции".</answer>
+<variant>Добавим анимации и будет приятнее пользоваться</answer>
+<variant>Сменим цвета кнопок для современного вида</answer>
+<variant>Уйдем от попапов — повысится NPS</answer>
+<variant>Снимем ограничения — повысится вовлечённость</answer>
+
+<question>Зачем в продуктовой работе делают приоритизацию гипотез?</question>
+<variant>Чтобы понять, какие гипотезы тестировать в первую очередь при ограниченных ресурсах.</answer>
+<variant>Чтобы отдать на разработку только финализированный дизайн</answer>
+<variant>Чтобы не учитывать сложность изменений</answer>
+<variant>Чтобы команду вовлекать в процессы</answer>
+<variant>Чтобы выбрать гипотезы по алфавиту</answer>
+
+<question>Какие три компонента обязательно входят в ICE-фреймворк?</question>
+<variant>Impact, Confidence, Ease.</answer>
+<variant>Impact, Cost, Effort</answer>
+<variant>Influence, Confidence, Effect</answer>
+<variant>Impact, Coverage, Expedience</answer>
+<variant>Impact, Confidence, Speed</answer>
+
+<question>Как рассчитывается итоговый балл в RICE?</question>
+<variant>(Reach × Impact × Confidence) / Effort.</answer>
+<variant>(Impact + Confidence + Ease)/3</answer>
+<variant>Reach + Impact + Confidence + Effort</answer>
+<variant>(Impact × Ease) / Confidence</answer>
+<variant>Reach / Effort + Confidence</answer>
+
+<question>Что такое параметр Reach в RICE-фреймворке?</question>
+<variant>Число пользователей, которых коснется изменение за определённый период.</answer>
+<variant>Прогнозируемый прирост метрики</answer>
+<variant>Уверенность в успехе изменения</answer>
+<variant>Затраты времени/денег на реализацию</answer>
+<variant>Результат сплит-теста</answer>
+
+<question>Почему в приоритизации гипотез нужен параметр Effort (усилие)?</question>
+<variant>Чтобы учитывать стоимость и сложность реализации гипотезы.</answer>
+<variant>Чтобы всегда отдавать предпочтение сложным задачам</answer>
+<variant>Чтобы замедлить разработку</answer>
+<variant>Чтобы не делать легкие изменения</answer>
+<variant>Чтобы оценить влияние на прибыль</answer>
+
+<question>Что такое ICE-фреймворк?</question>
+<variant>Метод оценки и ранжирования гипотез по трем параметрам: Impact, Confidence, Ease.</answer>
+<variant>Модель для расчета окупаемости трафика</answer>
+<variant>Методика поиска слабых мест в продукте</answer>
+<variant>Система для работы с пользовательскими отзывами</answer>
+<variant>Только чек-лист по usability</answer>
+<question>Какие виды подходов применяются для проверки гипотез?
+<variant>Качественный и количественный анализ.
+<variant>Теоретические исследования и практические эксперименты
+<variant>Рандомизированные и нерндомизированные методы
+<variant>Статистические тесты и наблюдения
+<variant>Использование первичных и вторичных данных
+<question>Что позволяет понять качественный метод проверки гипотез?
+<variant>Причины, по которым изменение работает или нет.
+<variant>Насколько сильный эффект изменения
+<variant>Статистическую значимость результата
+<variant>Объём выборки, необходимый для теста
+<variant>Влияние изменения на конверсию
+<question>Что показывает количественный метод проверки гипотез?
+<variant>Насколько сильно изменение влияет на метрику.
+<variant>Причины ухода пользователей
+<variant>Субъективные ощущения пользователей
+<variant>Мотивацию аудитории
+<variant>Факторы отказа от продукта
+<question>Как можно определить A/B-тест?
+<variant>Разделение пользователей на контрольную и тестовую группы.
+<variant>Опрос мнений аудитории
+<variant>Интервью с клиентами
+<variant>Наблюдение за поведением пользователей
+<variant>Когортный анализ поведения
+<question>Какая группа в A/B-тесте является контрольной?
+<variant>Та, которая продолжает использовать старый вариант продукта.
+<variant>Группа, получающая новую функцию
+<variant>Любая случайная группа пользователей
+<variant>Группа с самой высокой конверсией
+<variant>Группа, выбранная произвольно менеджером
+<question>Какая группа в A/B-тесте называется экспериментальной?
+<variant>Та, которая получает новый вариант продукта или изменения.
+<variant>Контрольная группа
+<variant>Любая случайная группа
+<variant>Группа с наименьшей конверсией
+<variant>Группа без изменений
+<question>Какие принципы нужно соблюдать при проведении A/B-теста?
+<variant>Рандомизация, тестирование одной переменной, достаточная выборка, фиксированная длительность, заранее определённая метрика.
+<variant>Использовать любую выборку и сразу несколько изменений
+<variant>Закрывать тест при первых видимых результатах
+<variant>Менять метрику по ходу теста
+<variant>Внедрять все изменения одновременно
+<question>Что бывает ошибкой при A/B-тесте из-за слишком маленькой выборки?
+<variant>«Запустили тест на 100 пользователей и сделали вывод».
+<variant>Преждевременное закрытие теста через неделю
+<variant>Тестирование одной переменной
+<variant>Изменение метрики во время теста
+<variant>Неправильная рандомизация
+<question>Как называется ошибка при A/B-тесте из-за раннего завершения?
+<variant>Закрыли тест слишком быстро, заметив «разницу», хотя данных недостаточно.
+<variant>Использование слишком большой выборки
+<variant>Нарушена рандомизация
+<variant>Метрика не была зафиксирована заранее
+<variant>Тестировалась более одной переменной
+<question>Какая ошибка возникает при тестировании сразу нескольких изменений?
+<variant>Одновременное тестирование 10 изменений.
+<variant>Тестирование одной переменной
+<variant>Использование корректной метрики
+<variant>Правильная рандомизация
+<variant>Достаточный размер выборки
+<question>Почему важно заранее фиксировать метрику для A/B-теста?
+<variant>Чтобы результаты не были подогнаны под желаемый эффект.
+<variant>Чтобы менять метрику в процессе теста
+<variant>Чтобы тестировать несколько изменений сразу
+<variant>Чтобы сократить длительность теста
+<variant>Чтобы уменьшить требуемый размер выборки
+<question>Какую минимальную длительность A/B-теста рекомендуют?
+<variant>Не менее одной недели.
+<variant>1 день
+<variant>2 дня
+<variant>3 дня
+<variant>5 дней
+<question>Что способно исказить результаты A/B-теста?
+<variant>Сезонные колебания, акции, разные источники трафика.
+<variant>Тестирование одной переменной
+<variant>Достаточный размер выборки
+<variant>Контрольная группа
+<variant>Экспериментальная группа
+<question>Какая метрика чаще всего измеряется в A/B-тестах интернет-магазинов?
+<variant>Конверсия в покупку.
+<variant>Время, проведённое на сайте
+<variant>Количество просмотренных страниц
+<variant>Среднее количество товаров в корзине
+<variant>Количество регистраций
+<question>Можно ли делать вывод о гипотезе на выборке из 100 пользователей?
+<variant>Нет, выборка слишком мала.
+<variant>Да, если разница видна сразу
+<variant>Да, если тест длится неделю
+<variant>Да, при заранее зафиксированной метрике
+<variant>Да, если тестируется только одна переменная
+<question>Что нужно дополнительно использовать для проверки значимости A/B-теста?
+<variant>Статистические методы (p-value, доверительный интервал).
+<variant>Интервью с пользователями
+<variant>User testing
+<variant>Качественный опрос
+<variant>Мнение менеджера
+<question>Если конверсия в экспериментальной группе выше, но разница мала, что делать?
+<variant>Собрать больше данных.
+<variant>Остановить тест
+<variant>Игнорировать результаты
+<variant>Менять метрику задним числом
+<variant>Тестировать сразу несколько изменений
+<question>Что помогает понять причины недовольства пользователей?
+<variant>Качественные методы проверки гипотез.
+<variant>Количественные методы
+<variant>A/B-тестирование
+<variant>Когортный анализ
+<variant>Метрика «до/после»
+<question> Какой показатель чаще всего используют для оценки удержания пользователей за неделю?
+<variant> Retention D7 — процент пользователей, вернувшихся через 7 дней.
+<variant> Churn Rate
+<variant> ARPU
+<variant> CTR
+<variant> LTV
+<question> Что такое ARPU в продуктовой аналитике?
+<variant> Средний доход на одного активного пользователя.
+<variant> Общий доход продукта
+<variant> Среднее количество сессий на пользователя
+<variant> Процент пользователей, совершивших покупку
+<variant> Время до первой оплаты
+<question> Для чего нужен paywall в продукте?
+<variant> Ограничивать доступ к части функционала, стимулируя оплату.
+<variant> Показ рекламы пользователю
+<variant> Увеличивать скорость загрузки
+<variant> Измерять время на сайте
+<variant> Привлекать новых пользователей
+<question> Что показывает метрика Conversion Rate?
+<variant> Процент пользователей, совершивших целевое действие.
+<variant> Общее количество пользователей
+<variant> Среднюю длительность сессии
+<variant> Количество просмотров страницы
+<variant> Уровень удержания
+<question> Какой показатель измеряет эффективность нового функционала до массового запуска?
+<variant> R-x2 — конверсия в повторное действие.
+<variant> ICE Score
+<variant> Churn Rate
+<variant> ARPU
+<variant> CTR
+<question> Что означает термин “activation” в продукте?
+<variant> Момент, когда пользователь понимает ценность продукта.
+<variant> Первое открытие приложения
+<variant> Первая покупка
+<variant> Первое взаимодействие с рекламой
+<variant> Скачивание приложения
+<question> Зачем используют A/B-тестирование в продукте?
+<variant> Чтобы сравнивать два варианта и выбрать более эффективный.
+<variant> Чтобы проверить дизайн на красоту
+<variant> Чтобы увеличить трафик без анализа
+<variant> Чтобы сразу увеличить доход
+<variant> Чтобы получить случайную выборку пользователей
+<question> Что такое RICE-фреймворк?
+<variant> Метод приоритизации гипотез по Reach, Impact, Confidence и Effort.
+<variant> Система аналитики удержания
+<variant> Вид A/B-теста
+<variant> Метод расчета ARPU
+<variant> Инструмент расчета CTR
+<question> Почему важно рассчитывать MDE перед запуском теста?
+<variant> Чтобы определить минимальное изменение, которое тест способен зафиксировать.
+<variant> Чтобы увеличить доход
+<variant> Чтобы привлечь больше пользователей
+<variant> Чтобы уменьшить время сессии
+<variant> Чтобы выбрать случайную контрольную группу
+<question> Что показывает метрика Churn Rate?
+<variant> Процент пользователей, ушедших за определённый период.
+<variant> Количество новых пользователей
+<variant> Среднее время на сайте
+<variant> Доля активных пользователей
+<variant> Общий доход продукта
+
+<question> Зачем перед запуском A/B-теста нужно чётко выбрать основную метрику? 
+<variant> Чтобы заранее понимать, по какому показателю будем принимать решение об успешности гипотезы. 
+<variant> Чтобы удобнее было рисовать графики
+<variant> Чтобы тест автоматически завершился в срок
+<variant> Чтобы можно было менять цель по ходу эксперимента
+<variant> Чтобы добавить как можно больше метрик сразу
+
+<question> Что является первым шагом при работе с гипотезами роста? 
+<variant> Сформулировать проблему или точку роста в бизнес-метриках. 
+<variant> Сразу собрать команду разработчиков
+<variant> Запустить любой A/B-тест без подготовки
+<variant> Поменять дизайн главной страницы
+<variant> Увеличить рекламный бюджет
+
+<question> Для чего перед тестом считается требуемый размер выборки (sample size)? 
+<variant> Чтобы понять, сколько пользователей нужно, чтобы результат был статистически значимым. 
+<variant> Чтобы равномерно распределить нагрузку на сервер
+<variant> Чтобы тест всегда шёл не больше трёх дней
+<variant> Чтобы сравнить бюджет маркетинга и разработки
+<variant> Чтобы заранее выбрать победителя теста
+
+<question> Зачем разделять гипотезы на быстрые (low effort) и долгие (high effort)? 
+<variant> Чтобы комбинировать «быстрые победы» и более трудозатратные, но потенциально сильные улучшения. 
+<variant> Чтобы запускать только самые сложные гипотезы
+<variant> Чтобы не тратить время на оценку эффекта
+<variant> Чтобы все гипотезы делать строго по очереди
+<variant> Чтобы не связывать гипотезы с метриками
+
+<question> В чём смысл фиксировать длительность A/B-теста заранее? 
+<variant> Чтобы не подглядывать в результаты и не останавливать тест в момент случайных колебаний. 
+<variant> Чтобы тест всегда завершался в пятницу
+<variant> Чтобы все тесты длились одинаковое количество дней
+<variant> Чтобы можно было менять дизайн во время эксперимента
+<variant> Чтобы быстрее утвердить задачу в бэклоге
+
+<question> Зачем после завершения A/B-теста анализируют вторичные метрики? 
+<variant> Чтобы проверить, не ухудшил ли выигравший вариант другие важные показатели продукта. 
+<variant> Чтобы найти любую метрику, где есть рост
+<variant> Чтобы заменить основную метрику задним числом
+<variant> Чтобы ускорить принятие решения о релизе
+<variant> Чтобы убедиться, что трафик был максимальным
+
+<question> Какую роль играет сегментация пользователей при проверке гипотез? 
+<variant> Позволяет увидеть, как изменение влияет на разные группы и не скрывает важные эффекты средним значением. 
+<variant> Нужна только для красивых графиков
+<variant> Нужна, чтобы уменьшить общий размер выборки
+<variant> Используется только в офлайн-бизнесе
+<variant> Применяется только к новым пользователям
+
+<question> Почему важно проверять одну ключевую идею в одной гипотезе/тесте? 
+<variant> Чтобы понимать, какое именно изменение привело к изменению метрики. 
+<variant> Чтобы можно было тестировать реже
+<variant> Чтобы использовать всю команду сразу
+<variant> Чтобы усложнить интерпретацию результатов
+<variant> Чтобы максимально загрузить систему экспериментов
+
+<question> В чём практический смысл документировать каждую гипотезу и результаты теста? 
+<variant> Чтобы накапливать базу знаний и не повторять одни и те же неуспешные эксперименты. 
+<variant> Чтобы увеличить количество отчётов в компании
+<variant> Чтобы упростить работу бухгалтерии
+<variant> Чтобы ускорить запуск рекламных кампаний
+<variant> Чтобы скрыть неудачные результаты от команды
+
+<question> Зачем после неуспешного теста не просто «закрывать гипотезу», а проводить разбор причин? 
+<variant> Чтобы понять, что именно не сработало, и улучшить формулировку или дизайн следующей гипотезы. 
+<variant> Чтобы найти виноватого за плохой результат
+<variant> Чтобы доказать, что эксперименты не нужны
+<variant> Чтобы быстрее переключиться на любую другую идею
+<variant> Чтобы заново запустить тот же тест без изменений
+
+<question> Что такое North Star Metric (NSM)?
+<variant> Ключевая метрика, которая лучше всего отражает основную ценность, доставляемую продуктом пользователям в долгосрочной перспективе.
+<variant> Ежедневная выручка компании
+<variant> Количество багов в релизе
+<variant> Скорость загрузки главной страницы
+<variant> Число подписчиков в социальных сетях
+
+<question> В чем заключается суть метода проверки гипотез Fake Door («Ложная дверь»)?
+<variant> Имитация наличия новой функции (например, кнопка) для проверки спроса до начала реальной разработки.
+<variant> Создание запасного входа для администраторов
+<variant> Тестирование системы безопасности сайта
+<variant> Скрытие реальных цен от пользователей
+<variant> Полное отключение регистрации для проверки реакции
+
+<question> Что такое опережающие показатели (Leading Indicators)?
+<variant> Метрики, которые предсказывают будущие результаты и позволяют оперативно влиять на итог (например, активность за день).
+<variant> Метрики, которые фиксируют уже свершившийся факт (например, выручка за прошлый квартал)
+<variant> Показатели, которые всегда растут
+<variant> Данные конкурентов
+<variant> Исторические данные за прошлый год
+
+<question> Что описывает Парадокс Симпсона в контексте анализа данных?
+<variant> Явление, когда тренд, наблюдаемый в отдельных группах данных, исчезает или меняется на противоположный при их объединении.
+<variant> Ситуацию, когда А/В-тест всегда показывает положительный результат
+<variant> Ошибку в расчете рекламного бюджета
+<variant> Невозможность измерить LTV
+<variant> Зависимость конверсии от фазы луны
+
+<question> Что показывает метрика CAC (Customer Acquisition Cost)?
+<variant> Сумму всех затрат на маркетинг и продажи, деленную на количество привлеченных новых клиентов за тот же период.
+<variant> Стоимость поддержки одного пользователя
+<variant> Средний чек покупки
+<variant> Общую прибыль компании
+<variant> Зарплату одного разработчика
+
+<question> Для чего в первую очередь используется анализ воронки (Funnel Analysis)?
+<variant> Для поиска «узких мест» и этапов, на которых происходит наибольший отток пользователей в сценарии.
+<variant> Для визуализации структуры компании
+<variant> Для расчета налоговых отчислений
+<variant> Для выбора цветовой палитры сайта
+<variant> Для сравнения зарплат сотрудников
+
+<question> Какое соотношение LTV к CAC (Unit Economics) часто считается эталоном здоровой бизнес-модели?
+<variant> LTV должен быть в 3 и более раз выше CAC (3:1).
+<variant> LTV должен быть равен CAC (1:1)
+<variant> CAC должен быть выше LTV
+<variant> Соотношение не имеет значения
+<variant> LTV должен быть равен нулю
+
+<question> Что такое «Эффект новизны» (Novelty Effect) при A/B-тестировании?
+<variant> Временное повышение метрик из-за любопытства пользователей к новому элементу, которое исчезает со временем.
+<variant> Постоянный рост конверсии после любого изменения
+<variant> Ошибка в программном коде
+<variant> Влияние сезонных распродаж
+<variant> Эффект от смены логотипа компании
+
+<question> Что такое каннибализация в контексте продуктовых метрик?
+<variant> Ситуация, когда внедрение нового продукта или функции приводит к снижению показателей существующего продукта той же компании.
+<variant> Поглощение одной компании другой
+<variant> Агрессивная рекламная кампания конкурентов
+<variant> Удаление старых пользователей из базы
+<variant> Снижение цен для всех клиентов
+
+<question> Что определяет «Тест Шона Эллиса» (The 40% rule)?
+<variant> Наличие Product-Market Fit: если 40% пользователей будут «очень разочарованы» исчезновением продукта, соответствие рынку найдено.
+<variant> Процент пользователей, готовых платить любую цену
+<variant> Эффективность рекламного баннера
+<variant> Скорость работы технической поддержки
+<variant> Уровень текучести кадров в команде
+
+<question> Что такое метрика CAC (Customer Acquisition Cost)? 
+<variant> Итоговая стоимость привлечения одного нового клиента (включая маркетинг и продажи). 
+<variant> Стоимость одного клика по рекламе 
+<variant> Общий бюджет маркетинга за год 
+<variant> Средний чек клиента 
+<variant> Стоимость удержания текущего клиента
+
+<question> Что показывает отношение DAU/MAU (Stickiness)?
+ <variant> «Липкость» продукта: как часто пользователи возвращаются в сервис в течение месяца. 
+<variant> Соотношение платящих и бесплатных пользователей 
+<variant> Эффективность рекламных каналов 
+<variant> Среднее время одной сессии 
+<variant> Процент оттока пользователей
+
+<question> Что такое North Star Metric? 
+<variant> Ключевая метрика, которая лучше всего отражает основную ценность, доставляемую продуктом клиентам. 
+<variant> Метрика, показывающая только финансовую выручку 
+<variant> Самая быстрорастущая метрика в отчете 
+<variant> Количество звезд в рейтинге приложения 
+<variant> Метрика технической стабильности серверов
+<question> Какова правильная структура Нулевой гипотезы (H_0) в A/B тестировании, направленном на улучшение коэффициента конверсии?
+<variant> H_0 Между тестовой группой (B) и контрольной группой (A) нет статистически значимой разницы в коэффициенте конверсии.
+<variant> H_0 Разница в коэффициенте конверсии между группами А и В существует
+<variant> H_0 Коэффициент конверсии в тестовой группе (B) выше, чем в контрольной (A)
+<variant> H_0 Коэффициент конверсии в обеих группах равен 10%
+<question> Какой фактор оказывает наибольшее влияние на минимально необходимый размер выборки и продолжительность A/B теста?
+<variant> Минимально обнаружимый эффект (MDE), то есть минимальное изменение метрики, которое мы хотим зафиксировать.
+<variant> Скорость загрузки веб-страницы
+<variant> Количество вариантов дизайна (больше двух)
+<variant> Общий объем трафика на сайте
+<question> Как называется ситуация, когда A/B тест показывает статистически значимое улучшение новой версии (B), хотя на самом деле это произошло случайно, и в долгосрочной перспективе разницы нет?
+<variant> Ошибка I рода (alpha-ошибка).
+<variant> Ошибка II рода (beta-ошибка)
+<variant> Ошибка III рода
+<variant> Ошибка сбора данных
+<question> Какой статистический тест чаще всего используется для сравнения коэффициентов конверсии (пропорций или долей) между двумя группами (A и B) в A/B тестировании?
+<variant> Z-тест для долей.
+<variant> t-тест Стьюдента
+<variant> Дисперсионный анализ (ANOVA)
+<variant> Корреляционный анализ
+<question> Какой общепринятый уровень значимости ($\alpha$) используется в большинстве бизнес-экспериментов (A/B тестов) для определения статистической значимости?
+<variant> 5% (или 0.05).
+<variant> 1% (или 0.01)
+<variant> 10% (или 0.1)
+<variant> 50% (или 0.5)
+<question> Какая из перечисленных метрик является наиболее подходящей в качестве ключевой бизнес-метрики (OUТPUT Metric) для проверки гипотезы об улучшении монетизации?
+<variant> Доход с пользователя (ARPU) или Средний чек (AOV).
+<variant> Количество кликов на кнопку "Подробнее"
+<variant> Глубина просмотра (количество страниц за сессию)
+<variant> Количество посещений
+<question> Какой тип метрик измеряет промежуточное поведение пользователя или его реакцию на элемент интерфейса, но не является прямым показателем финансового результата или лояльности?
+<variant> Метрики вовлеченности (например, клики, время на странице).
+<variant> Метрики лояльности (например, Customer Lifetime Value)
+<variant> Финансовые метрики (например, ARPU)
+<variant> Метрики стабильности системы (например, uptime)
+<question> Что такое effect size в A/B-тестировании?
+ <variant> Величина различия между вариантами A и B по целевой метрике.
+ <variant> Количество пользователей в эксперименте
+ <variant> Время проведения теста
+ <variant> Тип используемой метрики
+ <variant> Уровень доверия к аналитике
+<question> Почему важно заранее фиксировать гипотезу перед запуском A/B-теста?
+ <variant> Чтобы избежать подгонки выводов под полученные данные.
+ <variant> Чтобы ускорить разработку
+ <variant> Чтобы можно было менять цель по ходу теста
+ <variant> Чтобы не считать статистику
+ <variant> Чтобы тест всегда был успешным
+<question> Что такое доверительный интервал в A/B-тестировании?
+ <variant> Диапазон значений, в котором с заданной вероятностью находится истинный эффект.
+ <variant> Максимально возможный рост метрики
+ <variant> Количество дней теста
+ <variant> Ошибка измерения данных
+ <variant> Тип пользовательского сегмента
+<question> Почему важно проверять A/B-тест на эффект новизны?
+ <variant> Потому что первоначальный рост может быть временным и исчезнуть со временем.
+ <variant> Потому что новизна всегда ухудшает метрики
+ <variant> Потому что эффект новизны увеличивает выборку
+ <variant> Потому что без него нельзя считать p-value
+ <variant> Потому что новизна влияет только на дизайн
+<question> Что такое CUPED в A/B-тестировании?
+ <variant> Метод снижения дисперсии за счёт учёта данных до эксперимента.
+ <variant> Способ ускорить разработку
+ <variant> Альтернатива p-value
+ <variant> Тип пользовательского сегмента
+ <variant> Метод визуализации данных
+<question> В чём основная цель guardrail-метрик?
+ <variant> Убедиться, что улучшение основной метрики не ухудшило другие важные показатели.
+ <variant> Ускорить завершение теста
+ <variant> Заменить основную метрику
+ <variant> Повысить статистическую мощность
+ <variant> Уменьшить размер выборки
+<question> Что означает «односторонний тест» в статистике A/B-тестов?
+ <variant> Проверку гипотезы о направлении эффекта (например, что B лучше A).
+ <variant> Проверку нескольких метрик
+ <variant> Использование одной группы пользователей
+ <variant> Проверку только новых пользователей
+ <variant> Тест без контрольной группы
+<question> Когда уместно использовать односторонний тест?
+ <variant> Когда нас интересует только улучшение метрики, а не любое отличие.
+ <variant> Когда мало пользователей
+ <variant> Когда тест длится менее недели
+ <variant> Когда используется несколько вариантов
+ <variant> Когда нет нулевой гипотезы
+<question> Что такое post-hoc анализ в A/B-тестировании?
+ <variant> Анализ данных после завершения теста с дополнительными разрезами.
+ <variant> Анализ до запуска эксперимента
+ <variant> Метод расчета MDE
+ <variant> Замена A/B-теста
+ <variant> Способ ускорить сбор данных
+<question> Почему post-hoc анализ требует осторожности?
+ <variant> Он увеличивает риск ложноположительных выводов.
+ <variant> Он снижает размер выборки
+ <variant> Он отменяет основную метрику
+ <variant> Он запрещён в аналитике
+ <variant> Он всегда даёт неправильные результаты
+<question> Что такое сегментный эффект в A/B-тесте?
+ <variant> Разный эффект изменения для разных групп пользователей.
+ <variant> Ошибка рандомизации
+ <variant> Ошибка измерения метрик
+ <variant> Влияние сезонности
+ <variant> Технический сбой
+<question> Почему важно анализировать сегменты пользователей?
+ <variant> Потому что средний эффект может скрывать важные различия между группами.
+ <variant> Чтобы уменьшить размер выборки
+ <variant> Чтобы ускорить тест
+ <variant> Чтобы заменить основную метрику
+ <variant> Чтобы повысить CTR
+<question> Что такое holdout-группа?
+ <variant> Группа пользователей, на которую намеренно не применяются изменения.
+ <variant> Экспериментальная группа
+ <variant> Пользователи с ошибками
+ <variant> Группа для qualitative-исследований
+ <variant> Случайный сегмент
+<question> В чём риск изменения гипотезы во время теста?
+ <variant> Результаты перестают быть статистически корректными.
+ <variant> Тест ускоряется
+ <variant> Увеличивается доверие к данным
+ <variant> Повышается конверсия
+ <variant> Уменьшается шум
+<question> Что такое baseline в эксперименте?
+ <variant> Текущее значение метрики до внесения изменений.
+ <variant> Максимально возможный рост
+ <variant> Ошибка измерения
+ <variant> Тип пользователя
+ <variant> Вторичная метрика
+<question> Почему важно учитывать источники трафика в A/B-тесте?
+ <variant> Разные источники могут иметь разное поведение и искажать результаты.
+ <variant> Чтобы увеличить количество пользователей
+ <variant> Чтобы упростить аналитику
+ <variant> Чтобы отказаться от сегментации
+ <variant> Чтобы ускорить релиз
+<question> Что такое sequential testing?
+ <variant> Подход, позволяющий анализировать результаты теста по мере поступления данных.
+ <variant> Тестирование нескольких изменений одновременно
+ <variant> Запуск теста без контрольной группы
+ <variant> Использование только qualitative данных
+ <variant> Метод ускорения дизайна
+<question> В чём риск неконтролируемого sequential testing?
+ <variant> Повышение вероятности ошибки первого рода.
+ <variant> Снижение скорости теста
+ <variant> Уменьшение выборки
+ <variant> Потеря пользователей
+ <variant> Снижение LTV
+<question> Что такое uplift в A/B-тестировании?
+ <variant> Разница в метрике между тестовой и контрольной группами.
+ <variant> Абсолютное значение метрики
+ <variant> Количество пользователей
+ <variant> Длительность эксперимента
+ <variant> Тип дизайна
+<question> Почему важно оценивать практическую значимость, а не только статистическую?
+ <variant> Малый, но статистически значимый эффект может не иметь бизнес-смысла.
+ <variant> Потому что статистика не важна
+ <variant> Потому что бизнес не использует данные
+ <variant> Потому что выборка всегда мала
+ <variant> Потому что метрики всегда растут
+<question> Что такое false discovery rate (FDR)?
+ <variant> Доля ложноположительных результатов среди всех найденных эффектов.
+ <variant> Вероятность ошибки второго рода
+ <variant> Размер выборки
+ <variant> Тип гипотезы
+ <variant> Скорость теста
+<question> Почему рост DAU сам по себе не гарантирует рост выручки?
+ <variant> Потому что пользователи могут не монетизироваться.
+ <variant> Потому что DAU — техническая метрика
+ <variant> Потому что DAU нельзя измерить
+ <variant> Потому что DAU всегда падает
+ <variant> Потому что DAU влияет только на retention
+<question> Что такое cohort analysis?
+ <variant> Анализ поведения групп пользователей, объединённых по времени или признаку.
+ <variant> Анализ одного пользователя
+ <variant> Сравнение двух дизайнов
+ <variant> Метод qualitative-исследований
+ <variant> Подход к расчету CAC
+<question> В чём польза когортного анализа для retention?
+ <variant> Он показывает, как удержание меняется для разных групп пользователей.
+ <variant> Он увеличивает DAU
+ <variant> Он заменяет A/B-тест
+ <variant> Он ускоряет разработку
+ <variant> Он снижает churn автоматически
+<question> Что такое lagging metrics?
+ <variant> Метрики, отражающие результат с задержкой во времени (например, выручка).
+ <variant> Метрики активности за день
+ <variant> Метрики интерфейса
+ <variant> Метрики ошибок
+ <variant> Метрики дизайна
+<question> Почему нельзя оптимизировать продукт только по lagging metrics?
+ <variant> Они не позволяют быстро понять влияние изменений.
+ <variant> Они всегда неверны
+ <variant> Они не связаны с бизнесом
+ <variant> Они не измеримы
+ <variant> Они не используются в аналитике
+<question> Что такое proxy-метрика?
+ <variant> Косвенная метрика, заменяющая сложную или долгосрочную цель.
+ <variant> Основная бизнес-метрика
+ <variant> Метрика дохода
+ <variant> Ошибка измерения
+ <variant> Случайный показатель
+<question> Когда уместно использовать proxy-метрики?
+ <variant> Когда основная метрика проявляется слишком медленно.
+ <variant> Когда нет данных
+ <variant> Когда тест короткий
+ <variant> Когда не важен результат
+ <variant> Когда нет гипотезы
+<question> Что такое north-star alignment?
+ <variant> Соответствие эксперимента ключевой ценности продукта.
+ <variant> Совпадение всех метрик
+ <variant> Максимальный рост DAU
+ <variant> Использование одной метрики
+ <variant> Отказ от A/B-тестов
+<question> Почему важно документировать отрицательные результаты тестов?
+ <variant> Они помогают не повторять те же ошибки в будущем.
+ <variant> Чтобы скрыть неудачи
+ <variant> Чтобы увеличить отчётность
+ <variant> Чтобы заменить успешные тесты
+ <variant> Чтобы сократить аналитику
+<question> Что такое experiment backlog?
+ <variant> Список гипотез и экспериментов, ожидающих проверки.
+ <variant> Очередь багов
+ <variant> План релизов
+ <variant> Список метрик
+ <variant> Документация продукта
+<question> В чём риск оптимизации только одной метрики?
+ <variant> Можно ухудшить общую ценность продукта.
+ <variant> Метрика перестанет считаться
+ <variant> Уменьшится выборка
+ <variant> Ускорится рост
+ <variant> Снизится статистическая мощность
+<question> Что такое Simpson’s Paradox в A/B-тестах?
+ <variant> Когда общий результат противоречит результатам в сегментах.
+ <variant> Когда тест всегда успешен
+ <variant> Когда метрика не измеряется
+ <variant> Когда выборка слишком большая
+ <variant> Когда нет контрольной группы
+<question> Почему важно проверять данные на качество перед анализом?
+ <variant> Ошибки в данных могут привести к неверным бизнес-решениям.
+ <variant> Чтобы ускорить тест
+ <variant> Чтобы увеличить выборку
+ <variant> Чтобы изменить гипотезу
+ <variant> Чтобы улучшить дизайн
+<question> Что такое instrumentation в продуктовой аналитике?
+ <variant> Настройка корректного сбора событий и метрик.
+ <variant> Анализ поведения
+ <variant> Интервью с пользователями
+ <variant> Маркетинговая стратегия
+ <variant> UX-дизайн
+<question> Почему плохая инструментализация опасна?
+ <variant> Даже идеальный тест даст неверные выводы.
+ <variant> Она замедляет разработку
+ <variant> Она увеличивает трафик
+ <variant> Она улучшает UX
+ <variant> Она не влияет на аналитику
+<question> Что такое power analysis перед запуском теста?
+ <variant> Расчёт вероятности обнаружить ожидаемый эффект.
+ <variant> Анализ дизайна
+ <variant> Оценка UX
+ <variant> Проверка серверов
+ <variant> Подготовка отчёта
+<question> Почему маленький MDE требует большего размера выборки?
+ <variant> Малые эффекты сложнее отличить от шума.
+ <variant> Потому что метрика нестабильна
+ <variant> Потому что тест короткий
+ <variant> Потому что трафик низкий
+ <variant> Потому что p-value фиксирован
+<question> Что такое экспериментальный шум?
+ <variant> Случайные колебания метрик, не связанные с изменением.
+ <variant> Ошибка дизайна
+ <variant> Рост трафика
+ <variant> Пользовательские сегменты
+ <variant> Эффект новизны
+<question> Почему рост CTR не всегда означает рост бизнеса?
+ <variant> CTR может не коррелировать с оплатами или удержанием.
+ <variant> CTR — бесполезная метрика
+ <variant> CTR нельзя измерить
+ <variant> CTR всегда падает
+ <variant> CTR заменяет ARPU
+<question> Что такое effect size в A/B-тестировании?
+ <variant> Величина различия между вариантами A и B по целевой метрике.
+ <variant> Количество пользователей в эксперименте
+ <variant> Время проведения теста
+ <variant> Тип используемой метрики
+ <variant> Уровень доверия к аналитике
+<question> Почему важно заранее фиксировать гипотезу перед запуском A/B-теста?
+ <variant> Чтобы избежать подгонки выводов под полученные данные.
+ <variant> Чтобы ускорить разработку
+ <variant> Чтобы можно было менять цель по ходу теста
+ <variant> Чтобы не считать статистику
+ <variant> Чтобы тест всегда был успешным
+<question> Что такое доверительный интервал в A/B-тестировании?
+ <variant> Диапазон значений, в котором с заданной вероятностью находится истинный эффект.
+ <variant> Максимально возможный рост метрики
+ <variant> Количество дней теста
+ <variant> Ошибка измерения данных
+ <variant> Тип пользовательского сегмента
+<question> Почему важно проверять A/B-тест на эффект новизны?
+ <variant> Потому что первоначальный рост может быть временным и исчезнуть со временем.
+ <variant> Потому что новизна всегда ухудшает метрики
+ <variant> Потому что эффект новизны увеличивает выборку
+ <variant> Потому что без него нельзя считать p-value
+ <variant> Потому что новизна влияет только на дизайн
+<question> Что такое CUPED в A/B-тестировании?
+ <variant> Метод снижения дисперсии за счёт учёта данных до эксперимента.
+ <variant> Способ ускорить разработку
+ <variant> Альтернатива p-value
+ <variant> Тип пользовательского сегмента
+ <variant> Метод визуализации данных
+<question> В чём основная цель guardrail-метрик?
+ <variant> Убедиться, что улучшение основной метрики не ухудшило другие важные показатели.
+ <variant> Ускорить завершение теста
+ <variant> Заменить основную метрику
+ <variant> Повысить статистическую мощность
+ <variant> Уменьшить размер выборки
+<question> Что означает «односторонний тест» в статистике A/B-тестов?
+ <variant> Проверку гипотезы о направлении эффекта (например, что B лучше A).
+ <variant> Проверку нескольких метрик
+ <variant> Использование одной группы пользователей
+ <variant> Проверку только новых пользователей
+ <variant> Тест без контрольной группы
+<question> Когда уместно использовать односторонний тест?
+ <variant> Когда нас интересует только улучшение метрики, а не любое отличие.
+ <variant> Когда мало пользователей
+ <variant> Когда тест длится менее недели
+ <variant> Когда используется несколько вариантов
+ <variant> Когда нет нулевой гипотезы
+<question> Что такое post-hoc анализ в A/B-тестировании?
+ <variant> Анализ данных после завершения теста с дополнительными разрезами.
+ <variant> Анализ до запуска эксперимента
+ <variant> Метод расчета MDE
+ <variant> Замена A/B-теста
+ <variant> Способ ускорить сбор данных
+<question> Почему post-hoc анализ требует осторожности?
+ <variant> Он увеличивает риск ложноположительных выводов.
+ <variant> Он снижает размер выборки
+ <variant> Он отменяет основную метрику
+ <variant> Он запрещён в аналитике
+ <variant> Он всегда даёт неправильные результаты
+<question> Что такое сегментный эффект в A/B-тесте?
+ <variant> Разный эффект изменения для разных групп пользователей.
+ <variant> Ошибка рандомизации
+ <variant> Ошибка измерения метрик
+ <variant> Влияние сезонности
+ <variant> Технический сбой
+<question> Почему важно анализировать сегменты пользователей?
+ <variant> Потому что средний эффект может скрывать важные различия между группами.
+ <variant> Чтобы уменьшить размер выборки
+ <variant> Чтобы ускорить тест
+ <variant> Чтобы заменить основную метрику
+ <variant> Чтобы повысить CTR
+<question> Что такое holdout-группа?
+ <variant> Группа пользователей, на которую намеренно не применяются изменения.
+ <variant> Экспериментальная группа
+ <variant> Пользователи с ошибками
+ <variant> Группа для qualitative-исследований
+ <variant> Случайный сегмент
+<question> В чём риск изменения гипотезы во время теста?
+ <variant> Результаты перестают быть статистически корректными.
+ <variant> Тест ускоряется
+ <variant> Увеличивается доверие к данным
+ <variant> Повышается конверсия
+ <variant> Уменьшается шум
+<question> Что такое baseline в эксперименте?
+ <variant> Текущее значение метрики до внесения изменений.
+ <variant> Максимально возможный рост
+ <variant> Ошибка измерения
+ <variant> Тип пользователя
+ <variant> Вторичная метрика
+<question> Почему важно учитывать источники трафика в A/B-тесте?
+ <variant> Разные источники могут иметь разное поведение и искажать результаты.
+ <variant> Чтобы увеличить количество пользователей
+ <variant> Чтобы упростить аналитику
+ <variant> Чтобы отказаться от сегментации
+ <variant> Чтобы ускорить релиз
+<question> Что такое sequential testing?
+ <variant> Подход, позволяющий анализировать результаты теста по мере поступления данных.
+ <variant> Тестирование нескольких изменений одновременно
+ <variant> Запуск теста без контрольной группы
+ <variant> Использование только qualitative данных
+ <variant> Метод ускорения дизайна
+<question> В чём риск неконтролируемого sequential testing?
+ <variant> Повышение вероятности ошибки первого рода.
+ <variant> Снижение скорости теста
+ <variant> Уменьшение выборки
+ <variant> Потеря пользователей
+ <variant> Снижение LTV
+<question> Что такое uplift в A/B-тестировании?
+ <variant> Разница в метрике между тестовой и контрольной группами.
+ <variant> Абсолютное значение метрики
+ <variant> Количество пользователей
+ <variant> Длительность эксперимента
+ <variant> Тип дизайна
+
+
